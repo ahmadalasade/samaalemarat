@@ -222,6 +222,10 @@ emailjs.init({
 
 <a href="#head"><button id="scrollToTopBtn" title="Go to top">↑</button></body</a>
 
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    
 </body>
 </html>
 
@@ -328,3 +332,35 @@ let btnMenu = document.getElementById('btn-menu');
 
         
       </script>
+
+
+ <script>
+        function sendMail(){
+          Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "2ahmads.and.1barham@gmail.com",
+    Password : "3CF0D397FE4C23B8080B1169468B8BBD45E5",
+    To : '2ahmads.and.1barham@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New contact from enquiry",
+    Body : document.getElementById("subject").value
+}).then(
+  message => alert(message)
+);
+
+        }
+
+
+
+        Email.send({
+    SecureToken : "bab050ce-7dc7-434b-b84d-f6b3e7acb5f1",
+    To : '2ahmads.and.1barham@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New contact from enquiry",
+    Body : document.getElementById("subject").value
+}).then(
+  message => alert(message)
+);
+      </script>
+
+
