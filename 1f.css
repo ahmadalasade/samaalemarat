@@ -936,3 +936,13 @@ input:active {
 
 
 
+@media screen and (max-width:700px) { 
+  .flex {
+    display:grid;
+  }
+  
+  
+  
+
+
+
