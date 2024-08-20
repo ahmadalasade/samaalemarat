@@ -857,4 +857,82 @@ input:active {
   }
 }
 
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-family: "Source Sans Pro", serif;
+}
+
+.stat-figure {
+  font-size: 1.5em;
+  display: flex;
+  font-weight: bold;
+}
+
+
+
+:root {
+ 
+  --color-text: #f6fde1;
+  --color-accent: #faff98;
+  --gap: clamp(1rem, 6vw, 3rem);
+  --full: minmax(var(--gap), 1fr);
+  --content: min(30em, 100% - var(--gap) * 2);
+  --popout: minmax(0, 3rem);
+}
+
+
+
+.text-reverse {
+  padding: 0ch;
+ 
+  color: #f6931e;
+}
+
+
+.grid > * {
+  grid-column: content;
+}
+
+.popout {
+  grid-column: popout;
+}
+
+
+
+.flex {
+  display: flex;
+}
+
+
+
+
+.
+
+.bubble {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1ch 2ch;
+  border-top: 2px solid var(--color-accent);
+  border-left: 2px solid var(--color-accent);
+  border-top-left-radius: 1ch;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.stat-caption{
+
+  font-size: 20px;
+}
+
+
 
