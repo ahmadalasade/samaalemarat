@@ -856,6 +856,20 @@ input:active {
     bottom: -90px;
     right: -45px;
   }
+
+     .stylish-button {
+    margin-top: 8px;
+    padding: 10px 145px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #555;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+ 
 }
 
 .stat {
