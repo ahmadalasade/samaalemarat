@@ -827,7 +827,10 @@ input:active {
   }
 
 
-@media screen and (max-width: 1023.5px) {
+ 
+
+
+    @media screen and (max-width: 1023.5px) {
       .editor__circle {
           width: 200px;
           height: 187px;
@@ -857,6 +860,5 @@ input:active {
         right: 70px;
       }
   }
-
 
 
