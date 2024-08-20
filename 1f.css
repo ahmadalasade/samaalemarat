@@ -774,3 +774,19 @@ input:active {
     -webkit-box-shadow: 0 0 0px 1000px #151515 inset;
     color: #ffffff !important;
 }
+
+
+
+@media screen and (max-width:700px) { 
+  .owl-carousel .item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s ease;
+  }
+  }
